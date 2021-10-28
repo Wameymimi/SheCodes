@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greek Yoghurt</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- <script src="script.js"></script> -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>I Love Hand Burgers</h1>
+      <h2>Especially Cheese Burgers</h2>
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/019/942/original/pexels-rajesh-tp-1633578.jpg?1635435426"
+        alt="greek yoghurt"
+      />
+      <hr />
+      <p>
+        The <strong>Hand Burger</strong> features the brand’s fan-favorite OG
+        Fatburger with all the fixings, including chili, onion rings, American
+        cheese, bacon, egg and topped off with “the works,” on a freshly toasted
+        sponge-dough bun. You can find the Hang-In-There Burger at all domestic
+        Fatburger and Fatburger & Buffalo’s Express locations in-store and via
+        online ordering through December 31, 2020. Additionally, and for a
+        limited time only, fans can enjoy free delivery when ordering the
+        Hang-In-There Burger on Postmates through Wednesday, November 24,
+        2020.<br />
+      </p>
+      <a
+        href="https://www.storey.com/article/incubate-yogurt-equipment/"
+        target="_blank"
+        class="learn"
+      >
+        Learn more on wikipedia</a
+      >
+      <button>👍 GET A BITE TODAY</button>
+      <p class="footer">
+        This page was built by
+        <a href="https://www.w3schools.com/html/html_css.asp" ; target="_blank">
+          Wamey Mimi
+        </a>
+      </p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your name");
+        let email = prompt("What is your email");
+        let emoji = prompt("What is your favorite emoji");
+
+        if (name.length > 0) {
+          alert(
+            `Thank you,  ${name} We'll be in touch by email, Meanwhile enjoy your yoghurt ${emoji}`
+          );
+        } else {
+          alert("Please enter your name correctly");
+        }
+      }
+
+      let buyGreek = document.querySelector("button");
+      buyGreek.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
